@@ -1,10 +1,10 @@
 name:                TwoPagesGenericParser
 version:             0.1.0.0
 github:              "githubuser/TwoPagesGenericParser"
-license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2022 Author name here"
+license:             GPL
+author:              "Jörg Brüggmann"
+maintainer:          "info@joerg-brueggmann.de"
+copyright:           "Copyright (C) 2022 Jörg Brüggmann"
 
 extra-source-files:
 - README.md
@@ -30,6 +30,7 @@ executables:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
+    - -Wall
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N

@@ -9,10 +9,10 @@ version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/githubuser/TwoPagesGenericParser#readme>
 homepage:       https://github.com/githubuser/TwoPagesGenericParser#readme
 bug-reports:    https://github.com/githubuser/TwoPagesGenericParser/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2022 Author name here
-license:        BSD3
+author:         Jörg Brüggmann
+maintainer:     info@joerg-brueggmann.de
+copyright:      Copyright (C) 2022 Jörg Brüggmann
+license:        GPL
 license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
@@ -40,7 +40,7 @@ executable TwoPagesGenericParser-exe
       Paths_TwoPagesGenericParser
   hs-source-dirs:
       app
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  ghc-options: -Wall -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       TwoPagesGenericParser
     , base >=4.7 && <5

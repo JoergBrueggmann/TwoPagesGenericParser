@@ -1,3 +1,8 @@
+{-
+    Copyright (C) 2022  Jörg Brüggmann
+    Please see file "LICENSE" for more details.
+-}
+
 module Parser
     (
         Syntax(..),
